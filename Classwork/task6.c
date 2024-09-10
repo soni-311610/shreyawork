@@ -2,21 +2,22 @@
 
 main()
 {
-	int i,j,k;
+	int i,j;
+    int n=5;
+    int $;
 
-
-	for(i=1;i<=5;i++) // row
+	for(i=0;i<n;i++) // row
 	{
-		for(k=1;k<=5-i;k++) //space
-		{
-			printf(" ");
-		}
-		for(j=1;j<=i;j++) //colloum
+     for(j=0; j<2*(n-i)-1; j++ )
+     {
+     	printf("_");
+	 }
+		
+		for(j=0;j<=i;j++) //colloum
 {
 
-  printf("*");
+  printf("* ");
 }
 printf("\n");
-
 }
 }
